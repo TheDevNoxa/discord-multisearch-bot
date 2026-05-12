@@ -1,0 +1,15 @@
+{
+  "name": "discord-multisearch-bot",
+  "version": "2.0.0",
+  "description": "Bot Discord pour multi-search.eu",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "node-fetch": "^2.7.0",
+    "dotenv": "^16.3.1"
+  }
+}
