@@ -16,7 +16,6 @@ Un bot Discord **simple et performant** pour automatiser les recherches sur mult
 - ✅ **Embeds Discord** (résultats formatés)
 - ✅ **API multi-search.eu** (intégration directe)
 - ✅ **Gestion des erreurs** (messages clairs)
-- ✅ **Déploiement simple** (Replit, Railway, etc.)
 
 ---
 
@@ -26,7 +25,7 @@ Un bot Discord **simple et performant** pour automatiser les recherches sur mult
 
 ```bash
 # 1. Clone/Télécharge
-git clone <repo> && cd discord-multisearch-bot
+git clone github.com/TheDevNoxa/discord-multisearch-bot.git && cd discord-multisearch-bot
 
 # 2. Installe les dépendances
 npm install
@@ -51,7 +50,6 @@ npm start
 ## 📖 Documentation
 
 - **[INSTALLATION.md](./INSTALLATION.md)** - Guide complet d'installation et utilisation
-- **[.env](./.env)** - Configuration des secrets
 
 ---
 
@@ -82,21 +80,7 @@ Affiche l'uptime, les serveurs, le ping, etc.
 |---------|-------------|
 | **bot.js** | Code principal du bot (350 lignes) |
 | **package.json** | Dépendances Node.js |
-| **.env** | Configuration (token Discord) |
-| **.gitignore** | Ignore les secrets sur GitHub |
 | **INSTALLATION.md** | Guide complet |
-
----
-
-## 🌐 Déploiement
-
-Le bot peut être déployé gratuitement sur:
-
-- **Replit** - Gratuit, idéal pour démarrer
-- **Railway** - Gratuit 500h/mois
-- **Heroku** - 5€/mois (simple mais payant)
-
-Voir [INSTALLATION.md](./INSTALLATION.md) pour les détails.
 
 ---
 
@@ -106,42 +90,6 @@ Voir [INSTALLATION.md](./INSTALLATION.md) pour les détails.
 - **Dépendances:** 3 (discord.js, node-fetch, dotenv)
 - **Temps de réponse:** < 2 sec
 - **Support:** Français 100%
-
----
-
-## 🔒 Sécurité
-
-- ✅ Token en `.env` (jamais commité)
-- ✅ HMAC-SHA256 authentifiée
-- ✅ Gestion des erreurs
-- ✅ Rate limiting intégré
-
-**Important:** Ne montre jamais ton token !
-
----
-
-## ❓ FAQ
-
-**Q: Le bot peut chercher n'importe qui?**  
-R: Oui, l'API est publique. Respecte les lois de confidentialité.
-
-**Q: Comment ajouter plus de critères?**  
-R: Voir la section "Personnalisation" dans [INSTALLATION.md](./INSTALLATION.md)
-
-**Q: Ça marche hors-ligne?**  
-R: Non, le bot a besoin d'une connexion Internet.
-
-**Q: Mon token a été leaké, que faire?**  
-R: Régénère-le sur Discord Dev Portal immédiatement.
-
----
-
-## 🤝 Support
-
-- Problèmes? Vérifiez [INSTALLATION.md](./INSTALLATION.md)
-- Erreurs? Regardez les logs de la console
-- Questions? Vérifiez la FAQ ci-dessus
-
 ---
 
 ## 📝 Licence
@@ -150,16 +98,6 @@ MIT - Libre d'utilisation et de modification
 
 ---
 
-## 🎯 Roadmap
-
-- [ ] Pagination des résultats
-- [ ] Export JSON/CSV
-- [ ] Cache Redis
-- [ ] Recherche batch
-- [ ] Webhooks pour alertes
-
----
-
-**Made with ❤️ by Claude**
+**Made with ❤️ by TheDevNoxa**
 
 🚀 [Commencer maintenant](./INSTALLATION.md)
